@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*
+{
+    font-family: inter,   
+}
+.app-container
+{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-container h1
+{
+    font-weight: 500;
+    color: rgb(245, 95, 95);
+    margin-left: 70px;
+    margin-right: 70px;
+    align-content: center;
+    align-items: center;
+}
+.app-container img
+{
+    align-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.Qr-Code-img
+{
+    padding: 10px;
+    box-shadow: 0 0 10px red;
+    align-items: center;
+}
+.input-label
+{
+    display: block;
+    margin: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 1000;
+}
+input[type="text"]
+{
+    padding: 10px;
+    margin-bottom:10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 400px;
+    font-size: 15px;
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+button
+{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    color:white;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.Generate
+{
+    background-color: rgb(117, 96, 251);
+}
+.Generate:hover
+{
+    background-color: rgb(74, 48, 245);
+}
+.Generate:disabled
+{
+    background-color: azure;
+    cursor: not-allowed;
+}
+.Download
+{
+    background-color: green;
+    margin-left: 30px;
+}
+.Download:hover
+{
+    background-color: rgb(6, 230, 6);
+}
+.footer
+{
+    padding:20px;
+}
+.footer a
+{
+    text-decoration: none;
+    color: red;
+}
